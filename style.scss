@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+button {
+    padding: 5px;
+    margin: 5px 3px 12px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #1182ac;
+    background-color: #1182ac;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #1182ac;
+    border-color: #1182ac;
+}
+
+.caja{
+    // display: flex;
+    // align-items: center;
+}
+
+input{
+    width: 40px;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 3em;
+    border: 1px dotted crimson;
+    color: crimson;
+    font-family: sans-serif;
+}
+.simbolo{
+    font-size: 1.8em;
+}
+.resultados{
+    font-size: 1.5em;
+    margin-top: 8px;
+    color: #1182ac;
+}
